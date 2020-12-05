@@ -4,9 +4,9 @@ from tkinter import messagebox
 root=Tk()
 root.title('MatchingTiles')
 root.geometry("500x400")
-root.iconbitmap('C:/Users/Sujith/Documents/matchingtiles.ico')
+root.iconbitmap('C:/Users/Sujith/Documents/MatchingTiles/matchingtiles.ico')
 root.resizable(False,False)
-bgimage=PhotoImage(file='C:/Users/Sujith/Documents/matchingtiles2.png')
+bgimage=PhotoImage(file='C:/Users/Sujith/Documents/MatchingTiles/matchingtiles2.png')
 photolabel=Label(root,image=bgimage)
 photolabel.place(relx=0,rely=0,relheight=1,relwidth=1)
 
